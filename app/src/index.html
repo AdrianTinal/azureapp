@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure App Service & Static Web App</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #0078d4, #00188f); color: #333; margin: 0; }
+        .card { background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); text-align: center; max-width: 400px; width: 90%; }
+        h1 { color: #0078d4; margin-bottom: 1rem; }
+        p { color: #666; line-height: 1.6; }
+        .footer { margin-top: 2rem; font-size: 0.8rem; color: #999; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Azure Project</h1>
+        <p id="message">Conectando con el servidor...</p>
+        <div class="footer">Desplegado con Terraform & GitHub Actions</div>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
